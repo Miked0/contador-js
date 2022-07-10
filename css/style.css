@@ -1,7 +1,16 @@
+@import url(./bttn.css);
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
 *{
   margin: 0 auto;
 padding: 0;
   box-sizing: border-box;
+}
+
+h5,
+a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
 }
 
 body{
@@ -114,25 +123,53 @@ p {
     font-size:24px;
   }
 }
-p { font-size: 8rem;}
+p { font-size: 8rem;
+  transition: 0.6s all ease-in;
+color: #fff;
+border: 0.5 solid black;
+font-family: 'Ubuntu Condensed', sans-serif;
+}
+
 
 h2{
+  font-family: 'Ubuntu Condensed', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-
+  font-size: 22px;
 }
+
+ 
 .bttn {
 padding: 1rem 2rem;
-border-radius: 1rem;
-background-color: fff;
+border-radius: 7px;
+background-color: #fff;
 border: 0.1px solid black;
-
-
+transition: 0.6s all ease-in;
  }
+
+ .bttn:hover{
+  border: 0.1px solid ;
+background-color: black; 
+color: #fff;
+border: 1px solid black;
+} 
 
 .flex {display: flex;
 flex-direction: column; 
 }
-#bttn_incrementar, #bttn_decrementar, #bttn_reset{
-  margin-top: 1rem;
+ #bttn_decrementar{
+  margin: 20px;
 }
+
+
+
+.atrib {
+  margin-top: 2rem;
+}
+
+
+a:hover{ 
+  color: rgb(182, 232, 245);
+  transition: 0.4ms all ;
+}
+
