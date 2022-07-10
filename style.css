@@ -133,6 +133,6 @@ border: 0.1px solid black;
 .flex {display: flex;
 flex-direction: column; 
 }
-.flex:nth-child(2, 3){
-  margint
+#bttn_incrementar, #bttn_decrementar, #bttn_reset{
+  margin-top: 1rem;
 }
